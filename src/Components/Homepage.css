@@ -1,0 +1,209 @@
+.slogan{
+    position:relative;
+    color: white;
+    margin-top: -300px;
+    margin-bottom: 300px;
+    font-family: 'DINNeuzeitGroteskLTW01-BdCn';
+  }
+  
+  .slogan h1{
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .logoMain img{
+    width:500px !important;
+    z-index:5;
+  }
+  .logoMain {
+    position:relative;
+    width:500px !important;
+    top: 35%;
+    left:30%;
+  }
+
+  #homepage{
+    background-color: black;
+  }
+  
+  #homepage img {
+    margin-top: -200px;
+    width:100%;
+  }
+
+  #content{
+    position: relative;
+    background: black;
+    height: 800px;
+    border-bottom: 2px solid #3BD8ED;
+  }
+  #content img{
+    width:600px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #content h1{
+    text-align: center;
+    font-size: 60px;
+    color: #3BD8ED!important;
+  
+  
+  }
+  
+  #content h3 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+  }
+  
+.portfolio {
+    height:350px;
+    background-color:#3BD8ED;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .portfolio h1{
+    background-color:#3BD8ED ;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  
+  .card-body{
+    color: white;
+    background-color:#303030;
+    width: 100%;
+    margin-right:0;
+    min-height: 400px;
+  }
+  
+  .card{
+    border: none !important;
+    height: 300px;
+  }
+  
+  .col-sm-4{
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+  
+  }
+  
+  .row{
+    width:100%;
+    margin: 0;
+  }
+
+
+  .parallax { 
+    /* The image used */
+    background-image: url("https://static.wixstatic.com/media/1f41a3_d0e6e15255a94074931039cd4ef32fd2~mv2_d_2720_1530_s_2.jpg/v1/fill/w_2720,h_1530/DJI_0029-1%20copy.jpg");
+    /* Set a specific height */
+    height: 900px; 
+    border-bottom: 2px solid white;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 2.5s linear;
+  }
+  .parallax2 { 
+    /* The image used */
+    background-image: url("https://static.wixstatic.com/media/1f41a3_a3e3c87a96fa4dfd8ed3af7716b1a778~mv2_d_2000_1334_s_2.jpg/v1/fill/w_2000,h_1334/dji-mavic-pro-image.jpg");
+    /* Set a specific height */
+    height: 900px; 
+    border-bottom: 2px solid white;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #blue {
+    color:#3BD8ED!important;
+        /* position: fixed;
+        font-size: 2vw;
+        line-height: 2vw;
+        transform-origin: center;
+        left:40%;
+        transform: translate(-50%); */
+  }
+
+  .about h1{
+    background-color:#303030;
+    color:#3BD8ED;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid white;
+  
+  }
+  .about {
+    height:500px;
+    width:100%;
+    background-color:white;
+    display:inline-block;
+    text-align: center;
+  }
+  
+  .btn.btn-primary{
+    background-color:#3BD8ED;
+    color: White;
+  }
+  
+  .halfimg{
+    margin-top:212px;;
+    width:50%;
+    float: left;
+  }
+  .halfimgcontainer{
+    width: 100%;
+    float: right;
+    color: white;
+    
+  }
+  .halfimgcontainer h2{
+    background-color: none;
+    padding-top: 20px;
+    padding-left: 52%;
+  }
+
+  .halfimgcontainer p{
+    background-color: none;
+    padding-top: 20px;
+    padding-left: 52%;
+  }
+
+  .cloud {
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      height: 1010px;
+      width: 100%;
+      margin-top: -120px;
+      background: url(../Media/cloud.png);
+      /* opacity: .5; */
+      
+      
+      animation: animate 50s linear infinite;
+  }
+@keyframes animate
+{
+   0%{
+        background-position: 0px;
+    }
+    100%
+    {
+        background-position: 5440px;
+    }
+}

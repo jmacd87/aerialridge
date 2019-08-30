@@ -1,0 +1,38 @@
+/* Contact Form */
+.contactForm input {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 90%;
+  }
+  .contactPage{
+    background-color: #191919;
+  }
+  .contactForm {
+    width:30%;
+    margin-left: 35%;
+    margin-top:5%;
+    border: 3px;
+    border-color: white;
+    color:white;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 25px;
+    padding-right: 5px;
+    margin-bottom: 50px;
+  }
+  
+  
+  .contactForm input[type=submit] {
+    width: 90%;
+    border-radius: 15px;
+  
+  }
+  .contactForm input[type=submit]:hover {
+    transition: 1s;
+    background-color:var(--mainYellow)
+  
+  }
+  
+  .contactForm textarea {
+    width: 90% !important;
+  }

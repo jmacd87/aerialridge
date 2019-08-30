@@ -1,0 +1,83 @@
+
+
+  .logo {
+    padding-right: 20px;
+    width:20px;
+  }
+
+  .navbar p {
+    font-family:"Roboto" !important;
+    font-size: 15px;
+  
+  }
+  .navbar h1 {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -7px;
+    font-family:"Roboto" !important;
+    color: #3BD8ED !important;
+  }
+  .nav-link {
+    font-family:"Roboto" !important;
+    margin-top: 15px;
+    align-content: center;
+  }
+
+  .nav-link p:hover{
+      color: #3BD8ED;
+  }
+  
+  .navbar{
+    border-bottom: 2px solid rgba(255,255,255);
+  }
+  .navbar-nav {
+    align-self:center;
+    
+  }
+
+  .social {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .social img{
+    width:22px;
+  }
+
+  ul.navbar-nav{
+    width:700px;
+    align-items: center !important;
+  }
+
+  /* Top and Bottom borders go out */
+#topBotomBordersOut  a:before,#topBotomBordersOut  a:after
+{
+    position: absolute;
+    width: 80px;
+    left: auto;
+    height: 2px;
+    background: #3BD8ED ;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+#topBotomBordersOut a:after
+{
+    bottom: 0px;
+    color: #3BD8ED;
+    transform: translateY(-10px);
+}
+
+#topBotomBordersOut a:hover:before, #topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
