@@ -4,32 +4,34 @@
     box-sizing: border-box;
     width: 90%;
   }
-  .contactPage{
-    background-color: #191919;
-  }
+.contactPage{
+    background: url('https://static.wixstatic.com/media/1f41a3_e1b41a6001094c57a12d2792035e0265~mv2_d_2720_1530_s_2.jpg/v1/fill/w_2720,h_1530/DJI_0012-1%20copy.jpg');
+    height: 100%;
+    padding-top: 5%;
+
+}
   .contactForm {
     width:30%;
+    font-size: 20px;
+    font-family: 'DINNeuzeitGroteskLTW01-BdCn';
     margin-left: 35%;
-    margin-top:5%;
     border: 3px;
-    border-color: white;
-    color:white;
+    border-color: #3BD8ED;
+    color:#3BD8ED;
     border-style: solid;
-    border-radius: 25px;
     padding: 25px;
     padding-right: 5px;
-    margin-bottom: 50px;
   }
   
   
   .contactForm input[type=submit] {
     width: 90%;
-    border-radius: 15px;
   
   }
   .contactForm input[type=submit]:hover {
     transition: 1s;
-    background-color:var(--mainYellow)
+    border: 2px solid black;
+    background-color: #3BD8ED;
   
   }
   

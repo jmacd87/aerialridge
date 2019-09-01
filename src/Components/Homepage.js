@@ -26,7 +26,7 @@ export default class Homepage extends Component {
                <h3>AERIAL RIDGE IS A FILM PRODUCTION & MARKETING COMPANY.
 WE CREATE CONTENT FOR BUSINESSES OF ANY SIZE AND DISTRIBUTE ACROSS ALL MEDIA PLATFORMS.</h3>
            </div>
-           <div className="portfolio">
+           <div id="portfolio">
              <h1><strong>SERVICES</strong></h1>
              <div className="row">
                 <div className="col-sm-4">
@@ -58,9 +58,10 @@ WE CREATE CONTENT FOR BUSINESSES OF ANY SIZE AND DISTRIBUTE ACROSS ALL MEDIA PLA
                 </div>
               </div>
             </div>
-           <div className="about">
+           
            <div className="parallax2">
           </div>
+          <div id="about">
         <h1><strong>ABOUT US</strong></h1>
         </div>
         <div className="halfimgcontainer">
@@ -78,7 +79,6 @@ In 2014 Mike moved to Halifax, NS and began studying Digital Filmmaking at da Vi
    After graduating in 2016 Mike moved back home to Yarmouth  Mike created Aerial Ridge Marketing & Film.</p>
         </div>
 </div>
-     
 
 
        
