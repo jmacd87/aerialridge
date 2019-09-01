@@ -90,3 +90,8 @@ a:hover {
     opacity: 1;
     transform: translateY(0px);
 }
+
+#navbarTogglerDemo03{
+    background-color: black;
+    z-index: 7;
+}
