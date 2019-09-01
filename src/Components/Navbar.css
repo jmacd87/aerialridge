@@ -55,7 +55,7 @@ a:hover {
   }
 
   ul.navbar-nav{
-    width:700px;
+    min-width:375px;
     align-items: center !important;
   }
 
@@ -94,4 +94,5 @@ a:hover {
 #navbarTogglerDemo03{
     background-color: black;
     z-index: 7;
+    margin-left: -15px;
 }
