@@ -2,12 +2,18 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components"; 
 import './Navbar.css';
-import '../App.css';
+
 
 export default class Navbar extends Component {
   render() {
     return (
-      <NavWrapper className="navbar navbar-expand-sm bg-primary px-sm-5">
+      <NavWrapper className="navbar navbar-expand-lg navbar-dark">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon">
+    <i class="fa fa-navicon"></i>
+      
+    </span>
+  </button>
         <Link to="/">
           <div className="logo">
           <img src=
@@ -18,8 +24,8 @@ export default class Navbar extends Component {
         <h1><strong>AERIAL <span id="ridge">RIDGE</span></strong></h1>
         
             </Link>
-        
-        <ul className="navbar-nav align-items-center">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <div id="topBotomBordersOut">
             <li className="nav-item ml-5">
               <a className="nav-link" href="#portfolio">
@@ -51,7 +57,7 @@ export default class Navbar extends Component {
           <img src={require('../Media/instagram-48.png')} />
           </a>
 
-      
+      </div>
         
       </NavWrapper>
     );

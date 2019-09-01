@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://db.onlinewebfonts.com/c/bb2e1211dfd31103079dbce7c49e1d4e?family=DINNeuzeitGroteskLTW01-BdCn');
 
+@media only screen and (max-width: 400px){
+  body{
+
+  }
+}
 html{
   background-color:#191919;
-  min-width: 650px;
 }
 #root{
   background-color:#191919;
