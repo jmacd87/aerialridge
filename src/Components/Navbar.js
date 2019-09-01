@@ -22,16 +22,16 @@ export default class Navbar extends Component {
         <ul className="navbar-nav align-items-center">
           <div id="topBotomBordersOut">
             <li className="nav-item ml-5">
-              <Link to="/portfolio" className="nav-link">
+              <a className="nav-link" href="#portfolio">
                 <p>PORTFOLIO</p>
-              </Link>
+</a>
             </li>
           </div>
           <div id="topBotomBordersOut">
             <li className="nav-item ml-5">
-              <Link to="/About" className="nav-link">
+            <a className="nav-link" href="#about">
                 <p> ABOUT</p>
-              </Link>
+              </a>
             </li>
           </div>
           <div id="topBotomBordersOut">
