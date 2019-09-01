@@ -6,8 +6,13 @@
     width:100%;
   }
 }
-html{
+html, body{
   background-color:#191919;
+  overflow-x:hidden;
+}
+
+body {
+  position: relative;
 }
 #root{
   background-color:#191919;
