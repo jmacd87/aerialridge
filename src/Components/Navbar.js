@@ -10,7 +10,7 @@ export default class Navbar extends Component {
       <NavWrapper className="navbar navbar-expand-lg navbar-dark">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon">
-    <i class="fa fa-navicon"></i>
+    <i className="fa fa-navicon"></i>
       
     </span>
   </button>
@@ -24,7 +24,7 @@ export default class Navbar extends Component {
         <h1><strong>AERIAL <span id="ridge">RIDGE</span></strong></h1>
         
             </Link>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <div id="topBotomBordersOut">
             <li className="nav-item ml-5">
@@ -48,13 +48,13 @@ export default class Navbar extends Component {
             </li>
           </div></ul>
           <a href="https://www.facebook.com/aerialridge/" className="social">
-          <img src={require('../Media/facebook-48.png')} />
+          <img src={require('../Media/facebook-48.png')} alt=""/>
           </a>
           <a href="https://www.youtube.com/channel/UCtUm2y91NQcN1sgToIBM3xg?view_as=subscriber" className="social">
-          <img src={require('../Media/youtube-48.png')} />
+          <img src={require('../Media/youtube-48.png')} alt=""/>
           </a>
           <a href="https://www.instagram.com/aerialridge/" className="social">
-          <img src={require('../Media/instagram-48.png')} />
+          <img src={require('../Media/instagram-48.png')} alt="" />
           </a>
 
       </div>

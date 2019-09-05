@@ -41,16 +41,17 @@ a:hover {
   }
   .navbar-nav {
     align-self:center;
+    flex-direction: row;
     
   }
 
   .social {
-    display: inline-block;
-    margin-left: 10px;
+
     margin-right: 10px;
   }
   
   .social img{
+      flex-direction: row;
     width:22px;
   }
 
@@ -95,4 +96,5 @@ a:hover {
     background-color: black;
     z-index: 7;
     margin-left: -15px;
+
 }

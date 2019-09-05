@@ -5,27 +5,18 @@ class Contact extends Component {
   render() {
 
     return (
-
-      <div className="contactPage">
-  <div className="contactForm">  
-  <h1> CONTACT US</h1> 
-<form method="POST">
-  <label htmlFor="name">Name</label>
-  <br/>
-  <input type="text" name="name" />
-      <br/>
-  <label htmlFor="email">Email</label>
-  <br/>
-  <input type="email" name="email" />
-  <br/>
-  <label htmlFor="message">Message</label>
-  <br/>
-  <textarea name="message" rows="3"></textarea>
-  <br/>
-  <input type="submit" />
-</form>
+      <div className="contactForm">
+   <form id="contact-form">
+        <input type="hidden" name="contact_number"/>
+        <label>Name</label>
+        <input type="text" name="user_name"/>
+        <label>Email</label>
+        <input type="email" name="user_email"/>
+        <label>Message</label>
+        <textarea name="contact"></textarea>
+        <input type="submit" value="Send"/>
+    </form>
 </div>
-      </div>
     );
   }
 }
