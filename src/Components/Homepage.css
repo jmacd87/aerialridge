@@ -1,11 +1,12 @@
-@import url('https://db.onlinewebfonts.com/c/bb2e1211dfd31103079dbce7c49e1d4e?family=DINNeuzeitGroteskLTW01-BdCn');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
 .slogan{
     position:relative;
     color: white;
     margin-top: -300px;
     margin-bottom: 300px;
-    font-family: 'DINNeuzeitGroteskLTW01-BdCn';
+    font-family: 'Oswald', sans-serif;
   }
   
   .slogan h1{
@@ -237,11 +238,3 @@
   padding:25px;
 }
 
-@font-face {font-family: "DINNeuzeitGroteskLTW01-BdCn";
-  src: url("http://db.onlinewebfonts.com/t/bb2e1211dfd31103079dbce7c49e1d4e.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/bb2e1211dfd31103079dbce7c49e1d4e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("http://db.onlinewebfonts.com/t/bb2e1211dfd31103079dbce7c49e1d4e.woff2") format("woff2"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/bb2e1211dfd31103079dbce7c49e1d4e.woff") format("woff"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/bb2e1211dfd31103079dbce7c49e1d4e.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-  url("http://db.onlinewebfonts.com/t/bb2e1211dfd31103079dbce7c49e1d4e.svg#DINNeuzeitGroteskLTW01-BdCn") format("svg"); /* iOS 4.1- */
-}
