@@ -1,11 +1,11 @@
 @import url('https://db.onlinewebfonts.com/c/bb2e1211dfd31103079dbce7c49e1d4e?family=DINNeuzeitGroteskLTW01-BdCn');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .slogan{
     position:relative;
     color: white;
     margin-top: -300px;
     margin-bottom: 300px;
-    font-family: 'DINNeuzeitGroteskLTW01-BdCn, Helvetica, sans-serif';
+    font-family: 'DINNeuzeitGroteskLTW01-BdCn';
   }
   
   .slogan h1{
