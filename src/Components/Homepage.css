@@ -3,11 +3,11 @@
     color: white;
     margin-top: -300px;
     margin-bottom: 300px;
-    font-family: 'DINNeuzeitGroteskLTW01-BdCn';
+    font-family: 'DINNeuzeitGroteskLTW01-BdCn', 'sanserif';
   }
   
   .slogan h1{
-    font-size: 4vw;
+    font-size: 80px;
     text-align: center;
   }
 
@@ -20,7 +20,7 @@
   .logoMain {
     position:relative;
     width:375px !important;
-    top: 35%;
+    padding-top: 35%;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +32,7 @@
   }
   
   #homepage img {
-    margin-top: -200px;
+    margin-top: -100px;
     width:100%;
   }
 
@@ -48,7 +48,7 @@
     display:block;
     margin-left: auto;
     margin-right: auto;
-    
+
   }
   #content h1{
     text-align: center;
@@ -139,6 +139,7 @@
   }
   .parallax2 img{
       min-height: 500px;
+      padding-top: 200px;
   }
   #blue {
     color:#3BD8ED!important;
@@ -155,7 +156,7 @@
     color:#3BD8ED;
     padding-top: 10px;
     padding-bottom: 8px;
-    
+    border-bottom: 2px solid white;
   }
   #about {
     width:100%;
@@ -170,7 +171,7 @@
     color: White;
   }
   
-  .halfimg{
+  /* .halfimg{
     margin-top:200px;;
     width:50%;
     float: left;
@@ -196,9 +197,9 @@
 
   .halfimgcontainer img{
       height:500px;
-  }
+  } */
 
-  .cloud {
+  /* .cloud {
       overflow: hidden;
       top: 0;
       left: 0;
@@ -209,9 +210,11 @@
       /* opacity: .5; */
       
       
-      animation: animate 50s linear infinite;
-  }
-@keyframes animate
+      /* animation: animate 50s linear infinite; */
+  /* } */ 
+  
+ 
+/* @keyframes animate
 {
    0%{
         background-position: 0px;
@@ -220,4 +223,13 @@
     {
         background-position: 5440px;
     }
+} */ 
+
+.aboutus {
+  text-align: center;
+  color: white;
+}
+
+.aboutus p{
+  padding:25px;
 }

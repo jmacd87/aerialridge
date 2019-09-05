@@ -20,13 +20,13 @@ export default class Footer extends Component {
           
         
             <a href="https://www.facebook.com/aerialridge/" className="social">
-            <img src={require('../Media/facebook-48.png')} />
+            <img src={require('../Media/facebook-48.png')} alt=""/>
             </a>
             <a href="https://www.youtube.com/channel/UCtUm2y91NQcN1sgToIBM3xg?view_as=subscriber" className="social">
-            <img src={require('../Media/youtube-48.png')} />
+            <img src={require('../Media/youtube-48.png')} alt=""/>
             </a>
             <a href="https://www.instagram.com/aerialridge/" className="social">
-            <img src={require('../Media/instagram-48.png')} />
+            <img src={require('../Media/instagram-48.png')} alt=""/>
             </a>
   
         
