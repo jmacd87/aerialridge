@@ -15,7 +15,7 @@ class Contact extends Component {
            on size and location of the proposed idea </p>
       </div>
       <div className="contactForm">
-   <form id="contact-form" action="mailto:jmacd87@gmail.com" method="post" enctype="text/plain">
+   <form id="contact-form" action="mailto:jmacd87@gmail.com" method="post" encType="text/plain">
         <input type="hidden" name="contact_number"/>
         <label>Name</label>
         <input type="text" name="user_name"/>
