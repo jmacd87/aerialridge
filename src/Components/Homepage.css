@@ -160,7 +160,6 @@
     color:#3BD8ED;
     padding-top: 10px;
     padding-bottom: 8px;
-    border-bottom: 2px solid white;
   }
   #about {
     width:100%;
@@ -172,7 +171,14 @@
   
   .btn.btn-primary{
     background-color:#3BD8ED;
+    border:1px solid #3BD8ED;
     color: White;
+  }
+  .btn.btn-primary:hover{
+    transition: 1s;
+    background:none;
+    color: #3BD8ED;
+    border: 1px solid #3bd8ed;
   }
   
   /* .halfimg{
@@ -235,6 +241,13 @@
 }
 
 .aboutus p{
-  padding:25px;
+  text-align: center;
+  padding-right: 5em;
+  padding-left:5em;
+}
+
+img.mike {
+  width: 200px !important;
+  border-radius: 100px;
 }
 

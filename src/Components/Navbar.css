@@ -1,13 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 a {
     color:white;
     list-style: none;
 }
+
 a:hover {
+  text-decoration: none;
+}
+.navbar a:hover {
+  transition: 1s;
     color:#3BD8ED;
     
 }
+.navbar-dark .navbar-nav .nav-link {
+  font-family:"Roboto" !important;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+strong {
+  margin-top: 10px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #3BD8ED;
+}
+.nav-link-name{
+  padding-top: 15px;
+  list-style: none;
+}
 
+/* .nav-link-name h1{
+
+  list-style: none;
+} */
   .logo {
     padding-right: 20px;
     width:20px;
@@ -26,18 +52,20 @@ a:hover {
     font-family:"Roboto" !important;
     color: #3BD8ED !important;
   }
-  .nav-link {
+  .nav-link a{
     font-family:"Roboto" !important;
     margin-top: 15px;
     align-content: center;
+    color: white;
   }
 
-  .nav-link p:hover{
+  .nav-link a:hover {
       color: #3BD8ED;
   }
   
   .navbar{
     border-bottom: 2px solid rgba(255,255,255);
+    background: black;
   }
   .navbar-nav {
     align-self:center;
@@ -52,11 +80,10 @@ a:hover {
   
   .social img{
       flex-direction: row;
-    width:22px;
+    width:25px;
   }
 
   ul.navbar-nav{
-    min-width:375px;
     align-items: center !important;
   }
 
@@ -95,6 +122,26 @@ a:hover {
 #navbarTogglerDemo03{
     background-color: black;
     z-index: 7;
-    margin-left: -15px;
+    /* margin-left: -15px; */
 
+}
+
+.navbar-toggler {
+  border-color: #3BD8ED !important;
+  border: 1.5px solid;
+}
+
+@media only screen and (max-width: 600px){
+ .navbar-collapse li a {
+
+ }
+
+ #topBotomBordersOut {
+opacity: 0;
+display: none;
+ }
+}
+
+#navbarSupportedContent-333{
+margin-left:5em;
 }

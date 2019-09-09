@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 600px){
   html{
     width:100%;
   }
@@ -8,6 +8,7 @@
 html, body{
   background-color:#191919;
   overflow-x:hidden;
+  height: 100%;
 }
 
 body {

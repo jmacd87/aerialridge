@@ -1,24 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
 /* Contact Form */
 .contactForm input {
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
     width: 90%;
+    border: 5px solid #969696;
+    background: none;
+    color: white;
+  }
+
+  .contactForm input:hover{
+    transition: 1s;
+    border: 5px solid #3BD8ED;
   }
 .contactPage{
-    background: url('https://static.wixstatic.com/media/1f41a3_e1b41a6001094c57a12d2792035e0265~mv2_d_2720_1530_s_2.jpg/v1/fill/w_2720,h_1530/DJI_0012-1%20copy.jpg');
     height: 100%;
     padding-top: 5%;
+    margin-bottom: 100px;
 
 }
   .contactForm {
-    width:30%;
+    width:60%;
     font-size: 20px;
-    font-family: 'DINNeuzeitGroteskLTW01-BdCn';
-    margin-left: 35%;
-    border: 3px;
-    border-color: #3BD8ED;
-    color:#3BD8ED;
-    border-style: solid;
+    font-family: 'Oswald', sans-serif;
+    float:right;
+    color:#969696;
     padding: 25px;
     padding-right: 5px;
   }
@@ -26,15 +33,42 @@
   
   .contactForm input[type=submit] {
     width: 90%;
-  
+    color: #969696;
+    margin-bottom:100px;
   }
   .contactForm input[type=submit]:hover {
     transition: 1s;
-    border: 2px solid black;
-    background-color: #3BD8ED;
-  
+    border: 5px solid #3BD8ed;
+    color: #3BD8ED;
+    background: none;
+
   }
   
   .contactForm textarea {
+    display: block;
     width: 90% !important;
+    background: none;
+    border: 5px solid #969696;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .contactForm textarea:hover{
+    transition: 1s;
+    border: 5px solid #3BD8ED;
+  } 
+
+  .contactText {
+    float: left;
+    color: white;
+    text-align: left;
+    width: 35%;
+    margin-left: 25px;
+    padding-top: 55px;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+
   }
