@@ -24,7 +24,7 @@ class App extends Component {
         <Route path="/contact" component={Contact} />
 
       </Switch>
-      <Footer/>
+      
       
     </React.Fragment>
     );

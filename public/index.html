@@ -33,20 +33,29 @@
       <script src="https://kit.fontawesome.com/caef68614d.js"></script>
       <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-      <script type="text/javascript">
-          (function(){
-             emailjs.init("user_2p3oWiEQEx0XN19lFnPZ8");
-          })();
-      </script>
-      <script type="text/javascript">
-          window.onload = function() {
-              document.getElementById('contact-form').addEventListener('submit', function(event) {
-                  event.preventDefault();
-                  this.contact_number.value = Math.random() * 100000 | 0;
-                  emailjs.sendForm('contact_service', 'contact_template', this);
-              });
+
+      <script>$('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });</script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1w25eFwDhVLbQSgVXNpTMA4jHynBcEKs&callback=initMap"
+        async defer></script>
+        <script>
+          function initMap() {
+
+            var options = {
+              center: {lat: 43.8375, lng: -66.1174},
+              zoom: 14
+            }
+            var map = new google.maps.Map(document.getElementById('map'), options); 
+             
+
+          var marker = new google.maps.Marker({
+            position: {lat: 43.8375, lng: -66.1174},
+            map:map
+          });
           }
-      </script>
+        </script>
+        
     <!-- <script type="text/javascript">
         $(window).scroll(function() {
 
