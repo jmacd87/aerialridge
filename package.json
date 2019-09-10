@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "emailjs": "^2.2.0",
+    "google-map-react": "^1.1.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-mail-form": "^2.0.2",
