@@ -24,12 +24,7 @@ export default class Navbar extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent-333">
           <ul className="navbar-nav mr-auto ml-auto">
-          
-            <li className="nav-item">
-              <a className="nav-link" href="#">HOME
-              </a>
-            </li>
-            
+
             <li className="nav-item">
               <a className="nav-link" href="./#about">ABOUT</a>
             </li>

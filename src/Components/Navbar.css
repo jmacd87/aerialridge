@@ -59,6 +59,10 @@ strong {
     color: white;
   }
 
+  .nav-link p{
+    margin-top: 15px;
+  }
+
   .nav-link a:hover {
       color: #3BD8ED;
   }
