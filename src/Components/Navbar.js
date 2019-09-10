@@ -40,7 +40,9 @@ export default class Navbar extends Component {
               <a className="nav-link" href="./#portfolio">SERVICES</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">CONTACT</a>
+            <Link to="/Contact" className="nav-link">
+              <p> CONTACT</p>
+             </Link>
             </li>
      
           </ul>
