@@ -8,7 +8,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <React.Fragment>
-      <nav class="navbar navbar-expand-lg navbar-dark default-color">
+      <nav className="navbar navbar-expand-lg navbar-dark default-color">
       <Link to="/">
            <div className="logo">
            <img src=
@@ -18,46 +18,46 @@ export default class Navbar extends Component {
          <Link to="/" className="nav-link-name">
        <h1><strong>AERIAL <span id="ridge">RIDGE</span></strong></h1>
         </Link>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
           aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-          <ul class="navbar-nav mr-auto ml-auto">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent-333">
+          <ul className="navbar-nav mr-auto ml-auto">
           
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME
+            <li className="nav-item">
+              <a className="nav-link" href="#">HOME
               </a>
             </li>
             
-            <li class="nav-item">
-              <a class="nav-link" href="./#about">ABOUT</a>
+            <li className="nav-item">
+              <a className="nav-link" href="./#about">ABOUT</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./#">GALLERY</a>
+            <li className="nav-item">
+              <a className="nav-link" href="./#">GALLERY</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./#portfolio">SERVICES</a>
+            <li className="nav-item">
+              <a className="nav-link" href="./#portfolio">SERVICES</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact">CONTACT</a>
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">CONTACT</a>
             </li>
      
           </ul>
-          <ul class="navbar-nav ml-auto nav-flex-icons">
-            <li class="nav-item">
-            <a href="https://www.facebook.com/aerialridge/" class="nav-link waves-effect waves-light">
-                <i class="fab fa-facebook"></i>
+          <ul className="navbar-nav ml-auto nav-flex-icons">
+            <li className="nav-item">
+            <a href="https://www.facebook.com/aerialridge/" className="nav-link waves-effect waves-light">
+                <i className="fab fa-facebook"></i>
               </a>
             </li>
-            <li class="nav-item">
-            <a href="https://www.instagram.com/aerialridge/" class="nav-link waves-effect waves-light">
-                <i class="fab fa-instagram"></i>
+            <li className="nav-item">
+            <a href="https://www.instagram.com/aerialridge/" className="nav-link waves-effect waves-light">
+                <i className="fab fa-instagram"></i>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link waves-effect waves-light">
-                <i class="fab fa-youtube"></i>
+            <li className="nav-item">
+              <a className="nav-link waves-effect waves-light">
+                <i className="fab fa-youtube"></i>
               </a>
             </li>
           </ul>
@@ -125,13 +125,3 @@ export default class Navbar extends Component {
   }
 }
 
-// const NavWrapper = styled.nav`
-//   background-color: black !important;
-//   max-height: 80px;
-//   font-color: #0274be !important;
-//   .nav-link {
-//     color: white;
-//     font-size: 1.3rem;
-//     text-transform: capitalize;
-//   }
-// `;
