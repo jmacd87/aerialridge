@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './Contact.css';
- 
+import SimpleMap from './map';
 
 class Contact extends Component {
   render() {
@@ -26,7 +26,7 @@ class Contact extends Component {
         <input type="submit" value="Send"/>
     </form>
     
-</div><div id="map"></div>
+</div><div className="mapContainer"><SimpleMap/></div>
 </div>
 
 
