@@ -1,15 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
 
 /* Contact Form */
-.contactForm input {
-    display: block;
+
+.contactForm button {
+  display: block;
     box-sizing: border-box;
     width: 90%;
     border: 5px solid #969696;
     background: none;
-    color: white;
-  }
+    color: #969696;
 
+}
+.contactForm button:hover {
+   transition: 1s;
+    border: 5px solid #3BD8ED;
+}
   .contactForm input:hover{
     transition: 1s;
     border: 5px solid #3BD8ED;
@@ -29,10 +34,11 @@
     padding: 25px;
     padding-right: 5px;
   }
+
+
   
   
   .contactForm input[type=submit] {
-    width: 90%;
     color: #969696;
     margin-bottom:100px;
   }
@@ -44,15 +50,28 @@
 
   }
   
-  .contactForm textarea {
-    display: block;
-    width: 90% !important;
+  .contactForm input[type=text], input[type=email] {
+    width:90%;
     background: none;
     border: 5px solid #969696;
     color: white;
     margin-bottom: 15px;
   }
 
+  .contactForm input[type=text]:hover {
+    transition: 1s;
+    border: 5px solid #3BD8ed;
+    color: #3BD8ED;
+    background: none;
+  }
+  .contactForm textarea {
+    display: block;
+    width: 90%;
+    background: none;
+    border: 5px solid #969696;
+    color: white;
+    margin-bottom: 15px;
+  }
   .contactForm textarea:hover{
     transition: 1s;
     border: 5px solid #3BD8ED;
@@ -76,3 +95,11 @@
   .mapContainer{
     margin-top:500px;
   }
+
+form .input{
+  width:100%;
+}
+
+form label{
+  width: 100%;
+}
