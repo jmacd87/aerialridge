@@ -30,19 +30,26 @@ const encode = (data) => {
     render() {
       const { name, email, message } = this.state;
       return (
+        <div className="contactPage">
+        <div className="contactText">
 
+<h1>SEND A MESSAGE</h1>
+<p>
+For any inquiries or to request a quote, please send us a message. Rates vary on a project by project basis based on size and location of the proposed idea.
+</p>        
+</div>
         <div className="contactForm">
         <form onSubmit={this.handleSubmit}>
           <p>
             <label>
-              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+              Your Name: <input type="text" className="input" name="name" value={name} onChange={this.handleChange} />
             </label>
           </p>
-          <p>
             <label>
               Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+
             </label>
-          </p>
+
           <p>
             <label>
               Message: <textarea name="message" value={message} onChange={this.handleChange} />
@@ -53,6 +60,7 @@ const encode = (data) => {
           </p>
         </form>
         </div>
+        <div id="map"></div></div>
       );
     }
   }
