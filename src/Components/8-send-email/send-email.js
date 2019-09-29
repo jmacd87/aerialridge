@@ -8,11 +8,11 @@ var transporter = nodemailer.createTransport({
   }
 });
 
-var mailOptions = {
-  from: 'jmacd_87@hotmail.com',
-  to: 'jmacd87@gmail.com',
-  subject: 'hello',
-  text: `what`
+var mailOpts = {
+  from: req.body.name + ' &lt;' + req.body.email + '&gt;',
+  to: GMAIL_USER,
+  subject: 'New message from contact form at tylerkrys.ca',
+  text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`
 };
 
 transporter.sendMail(mailOptions, function(error, info){

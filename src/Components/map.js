@@ -25,7 +25,7 @@ class SimpleMap extends Component {
           <AnyReactComponent
             lat={43.8375}
             lng={-66.1174}
-            marker="Aerial Ridge"
+            markernpm="Aerial Ridge"
           />
         </GoogleMapReact>
       </div>
