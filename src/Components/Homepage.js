@@ -10,7 +10,7 @@ export default class Homepage extends Component {
              <div className="cloud">
                <div className="logoMain" >
                  
-          <img src={require('../Media/aeriallogo2.png')} alt=""/> 
+          <img src={require('../Media/aeriallogo4.png')} alt=""/> 
            </div>
            </div></div>
            <div className="slogan">
@@ -68,21 +68,27 @@ WE CREATE CONTENT FOR BUSINESSES OF ANY SIZE AND DISTRIBUTE ACROSS ALL MEDIA PLA
         <div className="halfimgcontainer">
         <div className="halfimg">
           <div className="aboutus">
-            <ImageCarousel/>
+            <ImageCarousel />
+            
             <h1><strong>ABOUT US</strong></h1>
         <img className="mike" src={"https://static.wixstatic.com/media/1f41a3_56cf6874faa04cf48cc5e61b9b69c2c7~mv2.png/v1/crop/x_147,y_19,w_417,h_417/fill/w_260,h_260,al_c,q_80,usm_0.66_1.00_0.01/1f41a3_56cf6874faa04cf48cc5e61b9b69c2c7~mv2.webp"}alt=""/> 
-        <p>MIKE SMITH</p>
+        <h1>MIKE SMITH</h1>
         <p id="white">
-Mike is the Owner, Cinematographer, and Drone Pilot of Aerial Ridge.
+          Mike is the Owner, Cinematographer, and Drone Pilot of Aerial Ridge.
 
-Born and raised in the small fishing community of Yarmouth, Nova Scotia. That’s where Mike found his passion for filmmaking.
+          Born and raised in the small fishing community of Yarmouth, Nova Scotia. That’s where Mike found his passion for filmmaking.
 
-In 2014 Mike moved to Halifax, NS and began studying Digital Filmmaking at da Vinci College. While attending he had the opportunity to work on many short films, documentary’s, interview’s, and a feature film movie where Mike gained quality experience by working and living on set.
+          In 2014 Mike moved to Halifax, NS and began studying Digital Filmmaking at da Vinci College. While attending he had the opportunity to work on many short films, documentary’s, interview’s, and a feature film movie where Mike gained quality experience by working and living on set.
 
-   After graduating in 2016 Mike moved back home to Yarmouth  Mike created Aerial Ridge Marketing & Film.</p>
-   <img src='https://static.wixstatic.com/media/1f41a3_cad0725b8b354dea991450c0d0d5df61~mv2_d_4000_3000_s_4_2.jpg/v1/fill/w_4000,h_3000/DJI_0014%20copy-2.jpg' alt=""/>
+            After graduating in 2016 Mike moved back home to Yarmouth  Mike created Aerial Ridge Marketing & Film.</p>
+        <img className="lastphoto" src='https://static.wixstatic.com/media/1f41a3_cad0725b8b354dea991450c0d0d5df61~mv2_d_4000_3000_s_4_2.jpg/v1/fill/w_4000,h_3000/DJI_0014%20copy-2.jpg' alt=""/>
+        <div className="bookNow">
+      <button>BOOK NOW</button>
+        </div>
        
-       </div> </div></div>
+       </div> 
+       </div>
+       </div>
 </div>
 
 
