@@ -52,7 +52,7 @@ export default class Navbar extends Component {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link waves-effect waves-light">
+              <a href="https://www.youtube.com/channel/UCtUm2y91NQcN1sgToIBM3xg" className="nav-link waves-effect waves-light">
                 <i className="fab fa-youtube"></i>
               </a>
             </li>
