@@ -1,6 +1,6 @@
 import ImageGallery from 'react-image-gallery';
 import React, { Component } from "react";
-
+import './ImageCarousel.css';
 const PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/';
 export default class ImageCarousel extends React.Component {
     constructor() {
@@ -13,7 +13,7 @@ export default class ImageCarousel extends React.Component {
           showFullscreenButton: true,
           showGalleryFullscreenButton: true,
           showPlayButton: true,
-          showGalleryPlayButton: true,
+          showGalleryPlayButton: false,
           showNav: true,
           isRTL: false,
           slideDuration: 450,
@@ -23,8 +23,9 @@ export default class ImageCarousel extends React.Component {
           showVideo: {},
         }
     }
+
   render() {
-    
+   
     const images = [
       {
         original: 'https://i.ibb.co/0qbPPXb/DSC-2136.jpg',
@@ -47,33 +48,27 @@ export default class ImageCarousel extends React.Component {
         thumbnail: 'https://i.ibb.co/y4zrLCd/Yarmouthbar.jpg/250/150/',
       },
       {
-        thumbnail: `${PREFIX_URL}4v.jpg`,
-        original: `${PREFIX_URL}4v.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/4pSzhZ76GdM?autoplay=1&showinfo=0',
-        description: 'Render custom slides within the gallery',
+        thumbnail: `https://i.ibb.co/dPwPTTX/thumbnail.jpg`,
+        original: `https://i.ibb.co/dPwPTTX/thumbnail.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/wB_xT_8dVAg',
+        description: 'Click on photo to view video',
         renderItem: this._renderVideo.bind(this)
       },
-    ];return (
-    <ImageGallery items={images} /> 
+    ];
+    return (
+      <ImageGallery
+      items= {images}
+
+    /> 
     )
 }
-    _toggleShowVideo(url) {
-        this.state.showVideo[url] = !Boolean(this.state.showVideo[url]);
-        this.setState({
-          showVideo: this.state.showVideo
-        });
-    
-        if (this.state.showVideo[url]) {
-          if (this.state.showPlayButton) {
-            this.setState({showGalleryPlayButton: false});
-          }
-    
-          if (this.state.showFullscreenButton) {
-            this.setState({showGalleryFullscreenButton: false});
-          }
-        }
+
+
+      _onImageClick(event) {
+        console.debug('clicked on image', event.target, 'at index', this._imageGallery.getCurrentIndex());
       }
     _renderVideo(item) {
+      
         return (
             
           <div className='image-gallery-image'>
@@ -86,8 +81,8 @@ export default class ImageCarousel extends React.Component {
                     >
                     </a>
                     <iframe
-                      width='560'
-                      height='315'
+                      width= '100%'
+                      height='900'
                       src={item.embedUrl}
                       frameBorder='0'
                       allowFullScreen
@@ -102,9 +97,10 @@ export default class ImageCarousel extends React.Component {
                     item.description &&
                       <span
                         className='image-gallery-description'
-                        style={{right: '0', left: 'initial'}}
+                        style={{left: '45%'}}
                       >
                         {item.description}
+
                       </span>
                   }
                 </a>
@@ -113,6 +109,22 @@ export default class ImageCarousel extends React.Component {
         );
       
       
+  }
+  _toggleShowVideo(url) {
+    this.state.showVideo[url] = !Boolean(this.state.showVideo[url]);
+    this.setState({
+      showVideo: this.state.showVideo
+    });
+  
+    if (this.state.showVideo[url]) {
+      if (this.state.showPlayButton) {
+        this.setState({showGalleryPlayButton: false});
+      }
+  
+      if (this.state.showFullscreenButton) {
+        this.setState({showGalleryFullscreenButton: false});
+      }
+    }
   }
  
 }
