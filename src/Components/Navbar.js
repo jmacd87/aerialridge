@@ -7,7 +7,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <React.Fragment>
-      <nav className="navbar navbar-expand-lg navbar-dark default-color">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-dark default-color">
       <Link to="/">
            <div className="logo">
            <img src=
@@ -22,7 +22,7 @@ export default class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent-333">
-          <ul className="navbar-nav mr-auto ml-auto">
+          <ul className="navbar-nav ml-auto">
 
             <li className="nav-item">
               <a className="nav-link" href="./#about">ABOUT</a>

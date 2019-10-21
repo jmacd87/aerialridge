@@ -74,7 +74,7 @@ strong {
   .navbar-nav {
     align-self:center;
     flex-direction: row;
-    
+    margin-right: 3.5%;
   }
 
   .social {
@@ -147,5 +147,5 @@ display: none;
 }
 
 #navbarSupportedContent-333{
-margin-left:5em;
+
 }

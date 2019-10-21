@@ -1,16 +1,21 @@
 import React, { Component } from "react";
 import './Homepage.css';
 import ImageCarousel from './ImageCarousel';
+
+
 export default class Homepage extends Component {
     render() {
 
+      function bookNow() {
+
+      }
       return (
         <div id="homepage">
            <div className="parallax">
              <div className="cloud">
                <div className="logoMain" >
                  
-          <img src={require('../Media/aeriallogo4.png')} alt=""/> 
+          <img src={require('../Media/aeriallogo5.png')} alt=""/> 
            </div>
            </div></div>
            <div className="slogan">
@@ -80,15 +85,17 @@ WE CREATE CONTENT FOR BUSINESSES OF ANY SIZE AND DISTRIBUTE ACROSS ALL MEDIA PLA
 
           In 2014 Mike moved to Halifax, NS and began studying Digital Filmmaking at da Vinci College. While attending he had the opportunity to work on many short films, documentary’s, interview’s, and a feature film movie where Mike gained quality experience by working and living on set.
 
-            After graduating in 2016 Mike moved back home to Yarmouth  Mike created Aerial Ridge Marketing & Film.</p>
+            After graduating in 2016 Mike moved back home to Yarmouth  Mike created Aerial Ridge Marketing & Film.</p> 
+            </div> 
+       </div>
+       </div>
+       <div className="bookNow">
         <img className="lastphoto" src='https://static.wixstatic.com/media/1f41a3_cad0725b8b354dea991450c0d0d5df61~mv2_d_4000_3000_s_4_2.jpg/v1/fill/w_4000,h_3000/DJI_0014%20copy-2.jpg' alt=""/>
-        <div className="bookNow">
-      <button>BOOK NOW</button>
+        
+      <button onClick={() => this.props.history.push('/contact')}>BOOK NOW</button>
         </div>
        
-       </div> 
-       </div>
-       </div>
+      
 </div>
 
 
